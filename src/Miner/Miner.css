@@ -1,0 +1,60 @@
+.MinerBox {
+
+}
+
+.Switches{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border:0px solid black;
+}
+
+.Switch {
+    margin: 0 3em;
+    margin-top:2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hash{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border:0px solid black;
+}
+
+.hashRate {
+    font-size: 5em;
+    color: #fff089;
+    text-shadow: 0px 0px 5px #253a5e;
+}
+
+.hashPerSecond {
+    align-self: flex-end;
+    margin-bottom: 1.2em;
+}
+
+.hashRateLabel {
+    margin-bottom: -1.3em;
+}
+
+.workLabel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:20em;
+    width:100%;
+}

@@ -1,0 +1,20 @@
+.listItem {
+    display:flex;
+    flex-direction: column;
+}
+
+.walletButton {
+    margin-top: 0.5em;
+}
+
+.listItemInternal {
+    max-width:7em;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatarImage {
+    box-shadow: 0 0 5px #253a5e;
+}

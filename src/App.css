@@ -1,0 +1,119 @@
+.App {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    border: 0px solid black;
+    padding: 1em;
+    max-width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.AppBox {
+    display: grid;
+    align-items: stretch;
+    height: 300px;
+    grid-template-rows: min-content auto 60px;
+}
+
+.AppInside {
+    border: 0px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logs {
+    word-break: break-all;
+}
+
+.Widget {
+    margin-top:1em;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgetHeader {
+    font-weight: bold;
+    width:100%;
+    color:#fff089;
+    text-shadow: 0px 0px 5px #253a5e;
+
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top:2em;
+}
+
+
+.Box {
+    border: 0px solid black;
+    display: flex;
+    width:100%;
+    max-width: 30em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.split {
+    width:100%;
+    max-width: 30em;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    border: 0px solid yellow;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row-center {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.smallLabel {
+    position: relative;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.largeLabel {
+    position: relative;
+    font-size:1em;
+    text-align: center;
+}
+
+.largeRed {
+    font-weight: bold;
+    text-shadow: 0em 0em 0.5em #253a5e;
+}

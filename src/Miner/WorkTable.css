@@ -1,0 +1,18 @@
+.workTableLabel {
+
+    display:flex;
+    text-align:center;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    color:#fff089;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #253a5e;
+    border-bottom:3px solid #fff089;
+    box-shadow: 0px 2px 5px -5px #253a5e;
+}
+
+.noBottomBorder {
+    border-bottom: none;
+}
